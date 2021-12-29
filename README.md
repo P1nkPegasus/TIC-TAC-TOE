@@ -1,6 +1,6 @@
 # TIC-TAC-TOE
 
-One Paragraph of project description goes here
+This project is a culmination of concepts covered over the last three weeks. My favorite aspect of the project is the CSS and the ability to turn the website into something nostalgic of a childhood memory. The aesthetics of MySpace, Tumblr, the Y2K Era, and Doja Cat served as influences.
 
 ## Wireframe
 
@@ -8,7 +8,6 @@ One Paragraph of project description goes here
 
 
 ## Built With
-
 * HTML
 * CSS
 * JavaScript
@@ -16,14 +15,16 @@ One Paragraph of project description goes here
 ## User Story
 * know what game it is
 * see a 3x3 game board
-    * Be able to click on boxes
-    * Be able to see the character correlate with the box chosen
+    * click on boxes
+    * see the character correlate with the box chosen
 * know who’s turn it is
     * know the game outcome
-        * Win
-        * Tie
+        * win
+        * tie
 * click button to start game over
-    * Clear all data from the game board
+    * clear all data from the game board
+
+
 
 ## What's next?
 * Add animation to the title
@@ -33,6 +34,6 @@ One Paragraph of project description goes here
 
 ## Acknowledgments
 
-* Big thanks to Google and DuckDuckGo
-* Youtube for all the tutorials! 
-* General Assembly Cohort for being super helpful
+* Big thanks to Google, DuckDuckGo, MDN, and StackOverflow
+* Youtube content creators for all the tutorials! 
+* GA instructors and cohort for being super helpfulgit
