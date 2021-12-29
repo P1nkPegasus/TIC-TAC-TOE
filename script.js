@@ -12,7 +12,7 @@ const tieMessage = () => `Game over, seems like you've met your match. It's a ti
 const currentPlayerTurn = () => ` ${currentPlayer}'s move...`;       
     showStatus.innerHTML = currentPlayerTurn();
 
-/*  all the possible winning positions */
+/*  all the possible winning positions, across, down, diagonal*/
 const winningPlays = [
     [0,1,2],
     [3,4,5],
@@ -57,14 +57,12 @@ function boxPlayed(clickedBox, clickedBoxIndex) {
         stillPlaying = false;
         return;
     }
-
         let tieRound = !validation.includes("");
-        if (tieRound) {
-            showStatus.innerHTML = tieMessage();
-            stillPlaying = false;
-            return;
-        }
-        
+            if (tieRound) {
+                showStatus.innerHTML = tieMessage();
+                stillPlaying = false;
+                return;
+            }
         changePlayer();
  }
 
@@ -76,7 +74,6 @@ function boxPlayed(clickedBox, clickedBoxIndex) {
      if (validation[clickedBoxIndex] !== "" || !stillPlaying){
          return;
         }
-
     boxPlayed(clickedBox, clickedBoxIndex);
     validateGame();
  }
