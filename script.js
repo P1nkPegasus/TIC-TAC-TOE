@@ -8,8 +8,8 @@ let validation = ["", "", "", "", "", "", "", "", ""];
 
 //messages
 const winMessage = () => `Player ${currentPlayer} has won!`;
-const tieMessage = () => `Game over, it's a tie!`;
-const currentPlayerTurn = () => `It is ${currentPlayer}'s turn...`;       
+const tieMessage = () => `Game over, seems like you've met your match. It's a tie! Best of 3?`;
+const currentPlayerTurn = () => ` ${currentPlayer}'s move...`;       
     showStatus.innerHTML = currentPlayerTurn();
 
 /*  all the possible winning positions */

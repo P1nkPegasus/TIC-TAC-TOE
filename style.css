@@ -22,7 +22,6 @@ section {
 }
 
 .grid-container {
-    /* margin: 0 auto; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 25px;
@@ -30,8 +29,7 @@ section {
     margin: 50px auto;
     background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FYHSuCPt.jpg&f=1&nofb=1);
     background-image: opacity 1;
-    background-position: center;
-    
+    background-position: center; 
 }
 
 .box {
@@ -46,3 +44,10 @@ section {
     cursor: pointer;
     font-size: 60px;
 }
+
+/* Start https://www.cursors-4u.com */ 
+* {cursor: 
+    url(https://cur.cursors-4u.net/games/gam-11/gam1087.ani), 
+    url(https://cur.cursors-4u.net/games/gam-11/gam1087.png), auto !important;
+} 
+/* End https://www.cursors-4u.com */
