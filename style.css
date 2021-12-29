@@ -1,6 +1,6 @@
 
 #title {
-    font-family: 'Moo Lah Lah', cursive;
+    font-family: 'Moo Lah Lah', "Courier New", Courier, monospace;
     font-size: 80px;
     color: rgb(206, 15, 133);  
 }
@@ -46,8 +46,8 @@ section {
 }
 
 /* Start https://www.cursors-4u.com */ 
-* {cursor: 
-    url(https://cur.cursors-4u.net/games/gam-11/gam1087.ani), 
+* {
+    cursor: url(https://cur.cursors-4u.net/games/gam-11/gam1087.ani), 
     url(https://cur.cursors-4u.net/games/gam-11/gam1087.png), auto !important;
 } 
 /* End https://www.cursors-4u.com */

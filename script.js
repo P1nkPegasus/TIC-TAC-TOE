@@ -3,7 +3,7 @@ const showStatus = document.querySelector(".game-status");
 //checking if moves can still be made
 let stillPlaying = true;
 let currentPlayer = "X";
-//creating array to track clicks and validates -- 9 in total
+//creating array to track clicks and validates moves  -- 9 in total
 let validation = ["", "", "", "", "", "", "", "", ""];
 
 //messages
@@ -28,14 +28,12 @@ const winningPlays = [
 function boxPlayed(clickedBox, clickedBoxIndex) {
     validation[clickedBoxIndex] = currentPlayer;
     clickedBox.innerHTML = currentPlayer;
-    console.log("boxPlayed");
  }
 
 /* conditional operator*/
  function changePlayer() {
      currentPlayer = currentPlayer === "X" ? "O" : "X";
      showStatus.innerHTML = currentPlayerTurn();
-     console.log("changePlayer");
  }
  
 
@@ -68,7 +66,6 @@ function boxPlayed(clickedBox, clickedBoxIndex) {
         }
         
         changePlayer();
-        console.log("validate");
  }
 
 /* makes sure to not click on the same box */
@@ -82,7 +79,6 @@ function boxPlayed(clickedBox, clickedBoxIndex) {
 
     boxPlayed(clickedBox, clickedBoxIndex);
     validateGame();
-    console.log("boxClicked");
  }
 
 /*sets game back to original state*/
@@ -92,7 +88,6 @@ function boxPlayed(clickedBox, clickedBoxIndex) {
      validation = ["", "", "", "", "", "", "", "", ""];
      showStatus.innerHTML = currentPlayerTurn();
      document.querySelectorAll(".box").forEach(box => box.innerHTML = "");
-     console.log("startGameOver");
  }
 
 /*event listeners for clicking and to start over */
