@@ -1,30 +1,45 @@
 
-body, button {
+#title {
     font-family: 'Moo Lah Lah', cursive;
-    font-size: 36px;
-    color: green;
+    font-size: 80px;
+    color: rgb(206, 15, 133);  
+}
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.oPyrHf-8ENoqJ-LD2Sk0nQHaD-%26pid%3DApi&f=1);
+}
+
+button {
+    cursor: pointer;
+    font-family: 'arial', cursive;
+    border-radius: 25px;
+    color:rgb(206, 15, 133);
 }
 
 section {
     text-align: center;
+    color:rgb(206, 15, 133);
 }
 
 .grid-container {
     /* margin: 0 auto; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: solid  6px rgb(10, 134, 57);
-    border-radius: 20px;
+    border-radius: 25px;
     width: 440px;
     margin: 50px auto;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FYHSuCPt.jpg&f=1&nofb=1);
+    background-image: opacity 1;
+    background-position: center;
+    
 }
 
 .box {
     font-family: 'Moo Lah Lah', cursive;
     width: 100px;
     height: 100px;
-    box-shadow: 0px 0px 0px 6px rgba(223, 16, 16, 0.651);
-    border: 6px solid rgba(216, 137, 20, 0.877);
+    box-shadow: 0px 0px 0px 1px rgb(206, 15, 133);
+    border: 1px solid rgb(180, 24, 120);
     border-radius: 20px;
     line-height: 100px;
     margin: 15px;
