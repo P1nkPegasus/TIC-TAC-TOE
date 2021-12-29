@@ -30,7 +30,7 @@ function boxPlayed(clickedBox, clickedBoxIndex) {
     clickedBox.innerHTML = currentPlayer;
  }
 
-/* conditional operator*/
+/* conditional operator to change players*/
  function changePlayer() {
      currentPlayer = currentPlayer === "X" ? "O" : "X";
      showStatus.innerHTML = currentPlayerTurn();
