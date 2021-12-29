@@ -1,5 +1,8 @@
-body {
-   font-family: "Arial", sans-serif;
+
+body, button {
+    font-family: 'Moo Lah Lah', cursive;
+    font-size: 36px;
+    color: green;
 }
 
 section {
@@ -9,20 +12,22 @@ section {
 .grid-container {
     /* margin: 0 auto; */
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    /* border: solid 4px brown; */
-    width: 310px;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid  6px rgb(10, 134, 57);
+    border-radius: 20px;
+    width: 440px;
     margin: 50px auto;
 }
 
 .box {
-    font-family: "Arial", sans-serif;
+    font-family: 'Moo Lah Lah', cursive;
     width: 100px;
     height: 100px;
-    box-shadow: 0px 0px 0px 1px rgba(223, 16, 16, 0.651);
-    border: 1px solid rgba(216, 137, 20, 0.877);
-    line-height: 200px;
-    /* margin: 15px; */
+    box-shadow: 0px 0px 0px 6px rgba(223, 16, 16, 0.651);
+    border: 6px solid rgba(216, 137, 20, 0.877);
+    border-radius: 20px;
+    line-height: 100px;
+    margin: 15px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 60px;
 }
