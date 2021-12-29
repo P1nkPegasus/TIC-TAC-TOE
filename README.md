@@ -2,7 +2,7 @@
 
 This project is a culmination of concepts covered over the last three weeks. My favorite aspect of the project is the CSS and the ability to turn the website into something nostalgic of a childhood memory. The aesthetics of MySpace, Tumblr, the Y2K Era, and Doja Cat served as influences.
 
-[Game link] (https://confident-neumann-130ab0.netlify.app/)
+[Game link](https://confident-neumann-130ab0.netlify.app/)
 ## Wireframe
 
 ![WIREFRAME Tic Tac Toe](https://user-images.githubusercontent.com/77082461/147681768-a2d69396-de37-4aa7-b4d1-d896122416b1.png)
